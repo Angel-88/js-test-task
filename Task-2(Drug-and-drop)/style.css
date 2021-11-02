@@ -1,0 +1,47 @@
+.body {
+    background-color: #a58aec;
+}
+.block {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid;
+    border-radius: 20px;
+    color: #f3dcf1;
+    background-color: #f3dcf1;
+    box-shadow: -1px 5px 11px 12px rgba(13, 13, 13, 0.19);
+}
+.block .newBlock {
+    position: absolute;
+    border-radius: 7px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    margin: 0 -3px;
+}
+
+.newBlock .input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 33px;
+    flex: 1 1 auto;
+    margin: 0 3px;
+}
+
+.newBlock .btn {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image:url(remove.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1 1 auto;
+    margin: 0 3px;
+
+}

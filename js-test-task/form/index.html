@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="title">
+    Stackfindover
+</h1>
+<div class="container">
+    <form data-form onsubmit="checkForm()" class="form">
+        <div class="label-sign">
+            <strong>
+                Sign in to your account
+            </strong>
+        </div>
+        <div class="label">
+            <label for="email">
+                <strong>
+                    Email
+                </strong>
+            </label>
+        </div>
+        <input class="input"
+               id="email"
+               type="email"
+               name="email"
+               placeholder="Enter email">
+        <div class="label password-wrapper">
+            <label for="password">
+                <strong>
+                    Password
+                </strong>
+            </label>
+            <a class="link "
+               href="https://www.google.com/">
+                <strong>
+                    Forgot your
+                    password?
+                </strong>
+            </a>
+        </div>
+        <input class="input"
+               id="password"
+               type="password"
+               name="password"
+               minlength="6"
+               required
+               placeholder="Password">
+        <div class="label">
+            <input class="checkbox"
+                   type="checkbox"
+                   id="checkbox">
+            <label for="checkbox">
+                <strong>
+                    Stay signed in for a week
+                </strong>
+            </label>
+        </div>
+        <input class="button"
+               type="submit"
+               value="Continue">
+        <div class="use-sign-on">
+            <a class="link"
+               href="https://www.google.com/maps/?hl=uk">
+                <strong>
+                    Use sign-on (Google) instead
+                </strong>
+            </a>
+        </div>
+    </form>
+
+</div>
+<div class="sign-up">
+    Don`t have an account?
+    <a class="link"
+       href="https://uk-ua.facebook.com/">
+        Sign up
+    </a>
+</div>
+</body>
+</html>
